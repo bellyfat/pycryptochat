@@ -61,6 +61,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     ui = Main()
     ui.show()
-    while(1):
-        print(1)
     sys.exit(app.exec_())
